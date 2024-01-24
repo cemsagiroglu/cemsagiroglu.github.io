@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Password Protected Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Personal Website</title>
 </head>
 <body>
-  <div class="container">
-    <form id="passwordForm">
-      <label for="password">Enter Password:</label>
-      <input type="password" id="password" name="password" required>
-      <button type="button" onclick="checkPassword()">Submit</button>
-    </form>
-  </div>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Work Experience</a>
+            <!-- Add more navigation links as needed -->
+        </nav>
+    </header>
 
-  <script src="script.js"></script>
+    <div class="tabs">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <!-- Add more tabs as needed -->
+        </ul>
+    </div>
+
+    <div class="content" id="about">
+        <h2>About Me</h2>
+        <p>Your introduction goes here.</p>
+    </div>
+
+    <div class="content" id="education">
+        <h2>Education</h2>
+        <p>Your educational background goes here.</p>
+    </div>
+
+    <div class="content" id="experience">
+        <h2>Work Experience</h2>
+        <p>Your work experience details go here.</p>
+    </div>
+
+    <!-- Add more content sections as needed -->
+
+    <script src="script.js"></script>
 </body>
 </html>
